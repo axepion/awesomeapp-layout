@@ -1,0 +1,11 @@
+@import 'normalize.scss';
+@import 'header.scss';
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+}
