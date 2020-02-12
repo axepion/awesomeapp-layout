@@ -1,0 +1,29 @@
+.introduction{
+    background: #21212E;
+    position: relative;
+    flex-basis: 200vh;
+    &__box-info{
+    
+    }
+}
+
+.phones{
+    width: 1453px;
+    height: 1014px;
+}
+
+.triangle{
+    position: absolute;
+    z-index: 5;
+    width: 210px;
+    height: 205px;
+}
+
+.background-container{
+    position: absolute;
+    z-index: 1;
+    background-color: #00009F;
+    mix-blend-mode: multiply;
+    opacity: 0.38;
+}
+

@@ -1,5 +1,8 @@
+@import 'variables.scss';
+
 @import 'normalize.scss';
 @import 'header.scss';
+@import 'introduction.scss';
 
 
 *{
@@ -8,4 +11,23 @@
 
 body{
     display: flex;
+    flex-direction: column;
+}
+
+p{
+    color: $text-color;
+    font: 300 16px/30px Muli sans-serif;
+}
+
+h2, h3, h1{
+    color: $title-color;
+}
+
+h2{
+    font: 300 55px/60px Muli sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: $title-color;
 }
